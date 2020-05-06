@@ -2,13 +2,14 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-    <h1>Translated value {{ translated }}</h1>
+    <h1>Translated value --> {{ translated }}</h1>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from './components/HelloWorld.vue';
+import { dt } from 'dictyper/dt';
 
 @Component({
   components: {
@@ -17,7 +18,7 @@ import HelloWorld from './components/HelloWorld.vue';
 })
 export default class App extends Vue {
   get translated() {
-    return this.$t('message.hello');
+    return this.$t( dt('pages.home.description') );
   }
 }
 </script>

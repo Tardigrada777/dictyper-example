@@ -2933,6 +2933,11 @@ detect-node@^2.0.4:
   resolved "https://registry.npm.taobao.org/detect-node/download/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
   integrity sha1-AU7o+PZpxcWAI9pkuBecCDooxGw=
 
+dictyper@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/dictyper/-/dictyper-0.1.13.tgz#1c62c9bcbba8b43c3300eed84dea740032fa6430"
+  integrity sha512-Hfv1iGpfGQt1BkXFP7plIr+SNGB9DRTBsIoMxx46oKLOO5Y7Ifea5EAbaALna0WYEmiyEMg5lKPdktE7/nsd/A==
+
 diff@^4.0.1:
   version "4.0.2"
   resolved "https://registry.npm.taobao.org/diff/download/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
