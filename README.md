@@ -1,6 +1,9 @@
 # dictyper-example
 
-## Project setup
+Example of using dictyper in real vue-project.
+In vscode works partially, in Webstorm fully working. Try it yourself. Just call `dt()` function anywhere in poject.
+
+### Project setup
 ```
 yarn install
 ```
@@ -10,15 +13,3 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
