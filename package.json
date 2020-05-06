@@ -11,6 +11,7 @@
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
+    "vue-i18n": "^8.17.4",
     "vue-property-decorator": "^8.4.1"
   },
   "devDependencies": {

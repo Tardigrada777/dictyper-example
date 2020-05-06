@@ -1,0 +1,14 @@
+{
+    "message": {
+        "hello": "hello world",
+        "greeting": "good morning"
+    },
+    "pages": {
+        "home": {
+            "description": "Home page description"
+        },
+        "about": {
+            "title": "About page title"
+        }
+    }
+}

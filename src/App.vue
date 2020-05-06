@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <h1>Translated value {{ translated }}</h1>
   </div>
 </template>
 
@@ -14,7 +15,11 @@ import HelloWorld from './components/HelloWorld.vue';
     HelloWorld,
   },
 })
-export default class App extends Vue {}
+export default class App extends Vue {
+  get translated() {
+    return this.$t('message.hello');
+  }
+}
 </script>
 
 <style>
